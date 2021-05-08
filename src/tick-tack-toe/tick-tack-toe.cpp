@@ -401,7 +401,7 @@ int AI_nega_scout::evaluate(int limit, int alpha, int beta, Board& board, Mass::
 				return a;
 			}
 
-			a = a + 1;
+			b = a + 1;
 		}
 	}
 	return a;
